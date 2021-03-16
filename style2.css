@@ -127,7 +127,7 @@ body{
 .title-section{
     width: 100vw;
     /*background-color:hsl(267, 100%, 81%);*/
-    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+    background-image: url("C:\Users\khile\OneDrive\Documents\GitHub\CFG-website\banner.jpg");
     text-align: center;
     height: 500px;
     display: flex;
