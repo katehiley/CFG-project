@@ -1,0 +1,454 @@
+header{
+    position: fixed;
+    background-color: rgb(46, 0, 102, 0.7);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    top: 0px;
+    color: white;
+    height: 75px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  nav{
+    margin: 12px 20px 0 20px;
+  }
+  
+  .form-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+  }
+  
+  .form-item{
+    margin: auto;
+    border-radius: 5px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 500;
+  }
+  
+  #search-text-area{
+    height: 25px;
+    width: 100px;
+    padding: auto;
+  }
+  
+  #search-button{
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    border-color:   #CAA0FF;
+    border-style: solid;
+    border-width: 3px;
+    font-weight: 700;
+  }
+  
+  #search-button:hover{
+    border-color: white;
+    color: white;
+    background-color: #CAA0FF;
+  }
+  
+  .logo-div img{
+    width: 60px;
+    margin: 22px 0 0 20px;
+  }
+  
+  ul{
+      display: flex;
+      width: 600px;
+      justify-content: space-around;
+      list-style :none;
+  }
+  
+  .nav-link{
+      text-decoration: none;
+      color: white;
+  }
+  
+  a:hover{
+      text-decoration: underline;
+  }
+  
+  body{
+      font-family:'montserrat', sans-serif;
+      font-size: 14px;
+      width: 100%;
+  }
+  
+  .name-title{
+      width: 100%;
+      background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+      text-align: top;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      padding: 50px 0 0 0;
+  }
+  
+  .main-title{
+    padding: 0 0 0 100px;
+  }
+  
+  h1 {
+      font-size: 100px;
+  }
+  
+  .thumb-image{
+    left: 0%; 
+    top: 0%; 
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 30px;
+    display: flex;
+    padding: 0 100px 0 100px;
+  }
+  
+  .home-img{
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+  }
+  
+  .about{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 500px;
+  }
+  
+  .her-story{
+    color:rgb(245, 245, 245);
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;  
+  }
+  
+  .her-story ::before{
+    content:'';
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: 
+  linear-gradient(45deg, rgba(221, 125, 125, 0.7), rgba(100, 155, 212, 0.7)),
+   url(https://pbs.twimg.com/media/DNpIJzQWkAAxYrv.jpg);
+  }
+  
+  .whitney-story ::before{
+    content:'';
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: 
+  linear-gradient(45deg, rgba(221, 125, 125, 0.7), rgba(100, 155, 212, 0.7)),
+   url(https://blog.smu.edu/smumagazine/files/2018/10/WhitneyWolfeHerdFeature-1y6db74-1100x699@2x.jpg);
+  }
+  
+  .story-div1{
+      flex:1;
+      flex-direction: row;
+      align-items: center;
+      justify-content:space-around;
+      text-align: center;
+  }
+  
+  .story-div2{
+    flex: 7;
+      text-align: center;
+  
+  }
+  
+  
+  .story-div3{
+    flex:1
+  }
+  
+  .fact-img{
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      background-repeat: no-repeat;
+      border-radius: 70%;   
+  }
+  
+  .filler-section{
+      height: 500px;
+      background-color:rgb(255, 255, 255);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-top: 40px;
+      padding-bottom: 60px;
+  }
+  
+  .video-header{
+      width:100%;
+      text-align: center;
+      color: white;
+      background-color: #CAA0FF;
+  
+  }
+  .video-section{
+      width: 95%;
+      display: flex;
+      align-items: center;
+      color: white;
+      background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+      height: 500px;
+      flex-direction: row;
+      padding-top: 40px;
+      padding-bottom: 60px;
+      padding-left: 60px;
+  
+  }
+  .video1{
+      flex: 1;
+      justify-content: center;
+  }
+  
+  .video2{
+      flex: 1;
+  }
+  
+  .descriptive-text{
+      width: 50%;
+      text-align: center;
+  }
+  
+  .flex-container1{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+  
+  .box1{
+    flex:2;
+    margin: 50px;
+  }
+  
+  .box2{
+    flex:1;
+    background-image: url("https://i.ytimg.com/vi/4WoiuKf0grU/maxresdefault.jpg");
+    background-size: cover;
+    padding: 100px;
+    margin: 50px;
+  }
+  
+  .box2-whitney{
+    flex: 1;
+    background-image: url("https://i.insider.com/6025d1b0b3c2a800183cc7f8?width=1300&format=jpeg&auto=webp");
+    background-size: cover;
+    padding: 100px;
+    margin: 50px;
+    margin-top: 200px;
+    height: 100px;
+    justify-content: center;
+  }
+  
+  .social-links{
+    background-color: rgb(255, 255, 255);
+    padding-top: 150px;
+    padding-bottom: 50px;
+  }
+  
+  .connect{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  h3{
+    text-align:center;
+    height: 100px;
+    width: 100%;
+    bottom: 0px;
+  }
+    
+    .center {
+      display: table;
+      width: 100%;
+      height: 100px;
+    }
+    
+    #social {
+      display: table-cell;
+      vertical-align: middle;
+    }
+    
+    #social ul {
+      text-align: center;
+      padding-left: 0px;
+      margin: 0 auto;
+    }
+    
+    #social li {
+      display: inline-block;
+      list-style-type: none;
+      margin-left: 30px;
+    }
+    
+    /** Facebook **/
+    
+    .facebook {
+      width: 50px;
+      height: 50px;
+    }
+    
+    .facebook .border {
+      background: transparent;
+      outline: none;
+      color:black;
+      width: 50px;
+      height: 50px;
+      -webkit-border-radius: 100px;
+      -moz-border-radius: 100px;
+      border-radius: 100px;
+      border: 2px solid black;
+      transition: all .2s ease-in-out;
+    }
+    
+    .facebook .border:hover {
+      background: #3b5998;
+      border-color: #436aaf;
+      color:black;
+      transform: scale(1.2);
+    }
+    
+    .fa.fa-facebook {
+      font-size: 25px;
+    }
+    
+    /** Twitter **/
+    
+    .twitter {
+      width: 50px;
+      height: 50px;
+    }
+    
+    .twitter .border {
+      background: transparent;
+      outline: none;
+      color:black;
+      width: 50px;
+      height: 50px;
+      -webkit-border-radius: 100px;
+      -moz-border-radius: 100px;
+      border-radius: 100px;
+      border: 2px solid black;
+      transition: all .2s ease-in-out;
+    }
+    
+    .twitter .border:hover {
+      background: #00aced;
+      border-color: #72c6e6;
+      color: rgba(255,255,255, 0.9);
+      transform: scale(1.2);
+    }
+    
+    .fa.fa-twitter {
+      font-size: 25px;
+    }
+    
+    /** Instagram **/
+    
+    .instagram {
+      width: 50px;
+      height: 50px;
+    }
+    
+    .instagram .border {
+      background: transparent;
+      outline: none;
+      color:black;
+      width: 50px;
+      height: 50px;
+      -webkit-border-radius: 100px;
+      -moz-border-radius: 100px;
+      border-radius: 100px;
+      border: 2px solid black;
+      transition: all .2s ease-in-out;
+    }
+    
+    .instagram .border:hover {
+      background: #517fa4;
+      border-color: #7495af;
+      color: rgba(255,255,255, 0.9);
+      transform: scale(1.2);
+    }
+    
+    .fa.fa-instagram {
+      font-size: 25px;
+    }
+    
+    /** dribbble **/
+    
+    .dribbble {
+      width: 50px;
+      height: 50px;
+    }
+    
+    .dribbble .border {
+      background: transparent;
+      outline: none;
+      color: black;
+      width: 50px;
+      height: 50px;
+      -webkit-border-radius: 100px;
+      -moz-border-radius: 100px;
+      border-radius: 100px;
+      border: 2px solid black;
+      transition: all .2s ease-in-out;
+    }
+    
+    .dribbble .border:hover {
+      background: #ea4c89;
+      border-color: #ff78ac;
+      color: rgba(255,255,255, 0.9);
+      transform: scale(1.2);
+    }
+    
+    .fa.fa-dribbble {
+      font-size: 25px;
+    }
+    
+    #social ul li {
+      transition: ease .3s;
+    }
+    
+    #social ul:hover > li {
+      opacity: 0.5;
+    }
+    
+    #social ul:hover > li:hover {
+      opacity: 1;
+    }
+  
+    .wireframe{
+      display: flex;
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.671);
+      justify-content: center;
+      text-align: center;
+    }
