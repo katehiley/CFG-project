@@ -123,6 +123,7 @@
       text-decoration: underline;
   }
   
+
 body{
     margin: 75px 0 0 0;
     font-family: 'Montserrat', sans-serif;
@@ -147,111 +148,33 @@ h1 {
 }
 
 .home-img{
-    width: 100px;
-    height: 150px;
+    width: 150px;
     object-fit: cover;
+    border-radius: 70%;   
+    box-shadow: 20px 20px 10px hsl(267 10% 50%)
 }
 
-/* carousel */
-#quote-carousel 
-{
-  padding: 0 10px 30px 10px;
-  margin-top: 30px;
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: white;
+    width: 100vw;
 }
-
-/* Control buttons  */
-#quote-carousel .carousel-control
-{
-  background: none;
-  color: #222;
-  font-size: 2.3em;
-  text-shadow: none;
-  margin-top: 30px;
-}
-/* Previous button  */
-#quote-carousel .carousel-control.left 
-{
-  left: -12px;
-}
-/* Next button  */
-#quote-carousel .carousel-control.right 
-{
-  right: -12px !important;
-}
-/* Changes the position of the indicators */
-#quote-carousel .carousel-indicators 
-{
-  right: 50%;
-  top: auto;
-  bottom: 0px;
-  margin-right: -19px;
-}
-/* Changes the color of the indicators */
-#quote-carousel .carousel-indicators li 
-{
-  background: #c0c0c0;
-}
-#quote-carousel .carousel-indicators .active 
-{
-  background: #333333;
-}
-#quote-carousel img
-{
-  width: 250px;
-  height: 100px
-}
-/* End carousel */
-
-.item blockquote {
-    border-left: none; 
-    margin: 0;
-}
-
-.item blockquote img {
-    margin-bottom: 10px;
-}
-
-.item blockquote p:before {
-    content: "\f10d";
-    font-family: 'Fontawesome';
-    float: left;
+.quote{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    padding-left: 20px;
+    margin-left: 10px;
+    padding-right: 20px;
     margin-right: 10px;
-}
-/**
-  MEDIA QUERIES
-*/
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-    #quote-carousel 
-    {
-      margin-bottom: 0;
-      padding: 0 40px 30px 40px;
-    }
-    
 }
-
-/* Small devices (tablets, up to 768px) */
-@media (max-width: 768px) { 
-    
-    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
-    
-    #quote-carousel .carousel-indicators {
-        bottom: -20px !important;  
-    }
-    #quote-carousel .carousel-indicators li {
-        display: inline-block;
-        margin: 0px 5px;
-        width: 15px;
-        height: 15px;
-    }
-    #quote-carousel .carousel-indicators li.active {
-        margin: 0px 5px;
-        width: 20px;
-        height: 20px;
-    }
-}
-
 .fact-section{
     color: white;
     /*background-color: #CAA0FF;*/
@@ -621,7 +544,7 @@ footer{
   }
 
   .copyright{
-      padding: 20px;
+      padding: 0px;
       margin-bottom: 5px;
       font-size: 10px;
       color: rgba(0, 0, 0, 0.459);
