@@ -9,7 +9,7 @@ header{
     top: 0px;
     color: white;
     height: 75px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans SC', sans-serif;
   }
   
   nav{
@@ -23,7 +23,9 @@ header{
     align-items: center;
     width: 200px;
   }
-  
+  h4{
+      font-size: 30px;
+  }
   .form-item{
     margin: auto;
     border-radius: 5px;
@@ -75,7 +77,7 @@ header{
   }
   
   body{
-      font-family:'montserrat', sans-serif;
+    font-family: 'Noto Sans SC', sans-serif;
       font-size: 14px;
       width: 100%;
   }
@@ -90,7 +92,8 @@ header{
       justify-content: center;
       color: white;
       padding: 50px 0 0 0;
-  }
+      text-shadow: 4px 4px 4px #aaa;
+  } 
   
   .main-title{
     padding: 0 0 0 100px;
@@ -103,8 +106,8 @@ header{
   .thumb-image{
     left: 0%; 
     top: 0%; 
-    width: 320px;
-    height: 320px;
+    width: 420px;
+    height: 420px;
     object-fit: cover;
     border-radius: 50%;
     margin-right: 30px;
@@ -118,20 +121,24 @@ header{
       object-fit: cover;
   }
   
-  .about{
+  .isabel-about{
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       height: 500px;
+      width: 500px;
+      font-family: 'Noto Sans SC', sans-serif;
   }
   
   .her-story{
-    color:rgb(245, 245, 245);
+    color:rgba(245, 245, 245, 0.596);
     display: flex;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    text-align: center;  
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center; 
+    justify-content: center;
+    align-items: center; 
   }
   
   .her-story ::before{
@@ -145,6 +152,15 @@ header{
   background-image: 
   linear-gradient(45deg, rgba(221, 125, 125, 0.7), rgba(100, 155, 212, 0.7)),
    url(https://pbs.twimg.com/media/DNpIJzQWkAAxYrv.jpg);
+  }
+
+  .whitney-story{
+      padding: 30px;
+      margin-left: 5%;
+      margin-right: 5%;
+      font-size: 15px;
+      text-align: center;
+      justify-content: center;
   }
   
   .whitney-story ::before{
@@ -160,23 +176,17 @@ header{
    url(https://blog.smu.edu/smumagazine/files/2018/10/WhitneyWolfeHerdFeature-1y6db74-1100x699@2x.jpg);
   }
   
-  .story-div1{
-      flex:1;
-      flex-direction: row;
+
+  .about-ir{
+      text-align: center;
+      width: 70%;
+      justify-content: center;
       align-items: center;
-      justify-content:space-around;
-      text-align: center;
-  }
-  
-  .story-div2{
-    flex: 7;
-      text-align: center;
-  
-  }
-  
-  
-  .story-div3{
-    flex:1
+      padding: 10px;
+      font-size: 14px;
+      background-color: rgba(255, 255, 255, 0.322);
+      font-family: 'Noto Sans SC', sans-serif;
+      color: black;
   }
   
   .fact-img{
@@ -189,7 +199,7 @@ header{
   
   .filler-section{
       height: 500px;
-      background-color:rgb(255, 255, 255);
+      background-color:rgba(255, 255, 255, 0.507);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -198,24 +208,19 @@ header{
       padding-bottom: 60px;
   }
   
-  .video-header{
-      width:100%;
-      text-align: center;
-      color: white;
-      background-color: #CAA0FF;
-  
-  }
   .video-section{
       width: 95%;
       display: flex;
       align-items: center;
       color: white;
       background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
-      height: 500px;
+      height: 450px;
       flex-direction: row;
-      padding-top: 40px;
-      padding-bottom: 60px;
+      padding-top: 20px;
+      padding-bottom: 20px;
       padding-left: 60px;
+      font-size: 20px;
+      text-align: center;
   
   }
   .video1{
@@ -235,16 +240,19 @@ header{
   .flex-container1{
     display: flex;
     justify-content: center;
-    background-color: white;
-    padding-top: 75px;
-    padding-bottom: 75px;
-    padding-left: 75px;
-    padding-right: 75px;
+    background-color: rgba(255, 255, 255, 0.473);
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 55px;
+    padding-right: 55px;
   }
   
   .box1{
     flex:2;
-    margin: 50px;
+    padding: 20px;  
+    background-color: rgba(200, 100, 247, 0.1);
+    text-align: center;
+    font-family: 'Noto Sans SC', sans-serif;
   }
   
   .box2{
@@ -267,9 +275,9 @@ header{
   }
   
   .social-links{
-    background-color: rgb(255, 255, 255);
-    padding-top: 150px;
-    padding-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.418);
+    padding-top: 70px;
+    padding-bottom: 40px;
   }
   
   .connect{
@@ -281,7 +289,7 @@ header{
   
   h3{
     text-align:center;
-    height: 100px;
+    height: 30px;
     width: 100%;
     bottom: 0px;
   }
