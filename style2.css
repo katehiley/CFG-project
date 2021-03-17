@@ -521,6 +521,7 @@ footer{
 
   footer{
     padding: 30px;
+    max-height: 40px;
   }
   .wireframe{
     display: flex;
