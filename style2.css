@@ -239,17 +239,25 @@ h1 {
     background-color: white;
 }
 
-.stories{
+.stories {
     display: flex;
     flex: 1;
-    flex-direction: row;
+    flex-direction: column;
     color: black;
+    background-color: rgba(137, 43, 226, 0.11);
     height: 500px;
     padding: 40px;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
+
+.story-paragraph{
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Baloo 2', cursive;
+}
+
 
 /* .stories-section{
     width: 100%;
