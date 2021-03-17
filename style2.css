@@ -134,7 +134,7 @@ body{
     /*background-color:hsl(267, 100%, 81%);*/
     background-color: linear-gradient(315deg, #f8ceec 0%, #a88beb 30%);
     text-align: center;
-    height: 500px;
+    height: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
