@@ -521,8 +521,8 @@ footer{
 
   footer{
     padding: 30px;
-    max-height: 40px;
   }
+
   .wireframe{
     display: flex;
     text-decoration: none;
@@ -532,7 +532,7 @@ footer{
   }
 
   .copyright{
-      padding: 30px;
+      padding: 20px;
       margin-bottom: 5px;
       font-size: 10px;
       color: rgba(0, 0, 0, 0.459);
