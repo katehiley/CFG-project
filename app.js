@@ -38,3 +38,12 @@ function changeImg(){
 window.onload = changeImg; //sets function to run when page loads 
 
 console.log("this works?")
+
+// When the DOM is ready, run this function
+$(document).ready(function() {
+    //Set the carousel options
+    $('#quote-carousel').carousel({
+      pause: true,
+      interval: 4000,
+    });
+  });
