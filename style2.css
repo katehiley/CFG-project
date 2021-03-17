@@ -130,7 +130,7 @@ body{
 }
 
 .title-section{
-    width: 100vw;
+    width: 100%;
     /*background-color:hsl(267, 100%, 81%);*/
     background-color: linear-gradient(315deg, #f8ceec 0%, #a88beb 30%);
     text-align: center;
@@ -140,6 +140,7 @@ body{
     justify-content: center;
     color: white;
     font-weight: 1500;
+    background-size: 100%;
 }
 
 h1 {
