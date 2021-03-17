@@ -529,3 +529,10 @@ footer{
     justify-content: center;
     text-align: center;
   }
+
+  .copyright{
+      font-size: 5px;
+      color: rgba(0, 0, 0, 0.459);
+      justify-content: center;
+      text-align: center;
+  }
