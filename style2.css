@@ -10,6 +10,11 @@
     align-items: center;
   }
   
+  .logo-div img{
+    width: 60px;
+    margin: 22px 0 0 20px;
+  }
+  
   .text{
     color: #a88beb; 
     font-size: 3rem;
