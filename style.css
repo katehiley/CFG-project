@@ -1,21 +1,27 @@
+/* isabel/whiteney style sheet */
+
+/* nav code below */
+
 header{
     position: fixed;
     background-color: rgb(46, 0, 102, 0.7);
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: auto;
     top: 0px;
     color: white;
     height: 75px;
-    font-family: 'Noto Sans SC', sans-serif;
+    /*font-family: 'Noto Sans SC', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    right: 1px;
   }
   
   nav{
-    margin: 12px 20px 0 20px;
+    margin: 12px 20px 12px 20px;
   }
-  
+
   .form-group{
     display: flex;
     flex-direction: row;
@@ -23,9 +29,7 @@ header{
     align-items: center;
     width: 200px;
   }
-  h4{
-      font-size: 17px;
-  }
+ 
   .form-item{
     margin: auto;
     border-radius: 5px;
@@ -57,9 +61,14 @@ header{
   
   .logo-div img{
     width: 60px;
-    margin: 22px 0 0 20px;
+    margin: 22px 0px 0 35px;
   }
-  
+   
+  .logo-div{
+    margin-left: 0px;
+    margin-right: 40vw; 
+  }
+
   ul{
       display: flex;
       width: 600px;
@@ -76,14 +85,15 @@ header{
       text-decoration: underline;
   }
   
+/* nav code ends here */
   body{
     font-family: 'Noto Sans SC', sans-serif;
       font-size: 14px;
-      width: 100%;
+      width: 100vw;
   }
   
   .name-title{
-      width: 100%;
+      width: 100vw;
       background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%), url(banner.jpg);
       text-align: top;
       height: 500px;
@@ -95,6 +105,9 @@ header{
       text-shadow: 4px 4px 4px #aaa;
   } 
   
+  h4{
+    font-size: 17px;
+  }
   .main-title{
     padding: 0 0 0 100px;
   }
@@ -112,7 +125,7 @@ header{
     border-radius: 50%;
     margin-right: 30px;
     display: flex;
-    padding: 0 100px 0 100px;
+    /* padding: 0 100px 0 100px; */
   }
   
   .home-img{
@@ -140,18 +153,19 @@ header{
     text-align: center; 
     justify-content: center;
     align-items: center; 
+    width: 100vw;
   }
   
   .her-story ::before{
     content:'';
-  z-index: -1;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-image: 
-  linear-gradient(45deg, rgba(221, 125, 125, 0.7), rgba(100, 155, 212, 0.7)),
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: 
+    linear-gradient(45deg, rgba(221, 125, 125, 0.7), rgba(100, 155, 212, 0.7)),
    url(https://pbs.twimg.com/media/DNpIJzQWkAAxYrv.jpg);
   }
 
@@ -166,14 +180,14 @@ header{
   
   .whitney-story ::before{
     content:'';
-  z-index: -1;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-image: 
-  linear-gradient(45deg, rgba(221, 125, 125, 0.7), rgba(100, 155, 212, 0.7)),
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: 
+    linear-gradient(45deg, rgba(221, 125, 125, 0.7), rgba(100, 155, 212, 0.7)),
    url(https://blog.smu.edu/smumagazine/files/2018/10/WhitneyWolfeHerdFeature-1y6db74-1100x699@2x.jpg);
   }
   
@@ -210,14 +224,14 @@ header{
   }
   
   .video-section{
-      width: 100%;
+      width: 100vw;
       display: flex;
       align-items: center;
       color: white;
       background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
       height: 450px;
       flex-direction: row;
-      padding: 20;
+    /*   padding: 20; */
       font-size: 20px;
       text-align: center;
   
@@ -228,12 +242,12 @@ header{
   }
   
   .video2{
-      flex: 1;
+    flex: 1;
   }
   
   .descriptive-text{
-      width: 50%;
-      text-align: center;
+    width: 50%;
+    text-align: center;
   }
   
   .flex-container1{
@@ -279,24 +293,19 @@ header{
     padding-bottom: 40px;
   }
   
-  .connect{
-    display:flex;
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  h3{
+h3{
     text-align:center;
     height: 30px;
-    width: 100%;
+    width: 30vw;
+    margin: auto;
     bottom: 0px;
+   
   }
     
     .center {
-      display: table;
-      width: 100%;
-      height: 100px;
+    display: table;
+    width: 100vw;
+    height: 100px;
     }
     
     #social {
@@ -462,7 +471,7 @@ header{
 
     .copyright{
         padding: 0px;
-        margin-bottom: 5px;
+        /* margin-bottom: 5px; */
         font-size: 10px;
         color: rgba(0, 0, 0, 0.459);
         justify-content: center;
