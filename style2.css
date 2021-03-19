@@ -1,15 +1,20 @@
-.intro{
-    background-color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
+/* home page style sheet */
+
+
+/* animation at beginning code below */
+
+  .intro{
+      background-color: white;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
   .text{
     color: #a88beb; 
     font-size: 3rem;
@@ -41,7 +46,13 @@
     align-items: center;
     transform: translateY(100%)
   }
+
+ /*  navbar/header code below */
   
+ .logo-div img{
+  width: 60px;
+  margin: 22px 0 0 20px;
+}
   header{
     position: fixed;
     background-color: rgb(46, 0, 102, 0.7);
@@ -97,11 +108,6 @@
     background-color: #CAA0FF;
   }
   
-  .logo-div img{
-    width: 60px;
-    margin: 22px 0 0 20px;
-  }
-  
   ul{
       display: flex;
       width: 600px;
@@ -117,7 +123,8 @@
   a:hover{
       text-decoration: underline;
   }
-  
+
+/* nav code ends here */
 
 body{
     margin: 75px 0 0 0;
@@ -127,14 +134,15 @@ body{
 .title-section{
     width: 100vw;
     /*background-color:hsl(267, 100%, 81%);*/
-    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+    background-color: linear-gradient(315deg, #f8ceec 0%, #a88beb 30%);
     text-align: center;
-    height: 500px;
+    height: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     font-weight: 1500;
+    background-size: 100%;
 }
 
 h1 {
@@ -142,9 +150,10 @@ h1 {
 }
 
 .home-img{
-    width: 100px;
-    height: 150px;
+    width: 150px;
     object-fit: cover;
+    border-radius: 70%;   
+    box-shadow: 20px 20px 10px hsl(267 10% 50%)
 }
 
 .quote-section{
@@ -156,7 +165,20 @@ h1 {
     background-color: white;
     width: 100vw;
 }
+.quote{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    padding-left: 20px;
+    margin-left: 10px;
+    padding-right: 20px;
+    margin-right: 10px;
+    font-family: 'Bebas Neue', cursive;
+    width: 60%;
 
+}
 .fact-section{
     color: white;
     /*background-color: #CAA0FF;*/
@@ -174,7 +196,16 @@ h1 {
     flex-direction: row;
     align-items: center;
     justify-content:space-around;
-    width: 300px;
+    width: 50%;
+}
+
+.fact-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
 }
 
 .fact-img{
@@ -185,14 +216,49 @@ h1 {
     box-shadow: 20px 20px 10px hsl(267 10% 50%)
 }
 
-.filler-section{
-    height: 300px;
-    background-color: #E9E9E9;
+.fact-text{
+    padding: 20px;
+}
+
+.story-section{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    background-color: white;
     align-items: center;
+    justify-content: space-around;
+    height: 500px;
     width: 100vw;
 }
+
+.story-heading{
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    color: black;
+    background-color: white;
+}
+
+.stories {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    color: black;
+    background-color: rgba(137, 43, 226, 0.11);
+    height: 500px;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.story-paragraph{
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Baloo 2', cursive;
+}
+
 
 /* .stories-section{
     width: 100%;
@@ -352,12 +418,13 @@ footer{
     background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
     font-family: 'Montserrat', sans-serif;
     width: 100vw;
+    padding-bottom: 40px;
 }
 
 .center {
     display: table;
-    width: 100%;
     height: 100px;
+    margin: auto;
   }
   
   #social {
@@ -513,13 +580,20 @@ footer{
     opacity: 1;
   }
 
-  footer{
-    padding: 30px;
-  }
+
   .wireframe{
     display: flex;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.671);
     justify-content: center;
     text-align: center;
+  }
+
+  .copyright{
+      padding: 0px;
+      margin-bottom: 5px;
+      font-size: 10px;
+      color: rgba(0, 0, 0, 0.459);
+      justify-content: center;
+      text-align: center;
   }
